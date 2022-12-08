@@ -28,4 +28,14 @@ paragraphs = document.querySelectorAll("p")
 for (let i=0; i<paragraphs.length; i++) {
     paragraphs[i].addEventListener('click', function() {do_the_thing(paragraphs[i])})
 }
+
+function do_the_other_thing() {
+    uls = document.querySelectorAll("ul")
+    for (let i=0; i<uls.length; i++) {
+        uls[i].display = block
+    }
+}
+
+body = document.querySelectorAll("body")
+body.addEventListener('click', function() {do_the_other_thing()})
 // */
