@@ -1,0 +1,33 @@
+html {
+    font-family: Comfortaa, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 159, 159);
+    font-size: 10px;
+    font-weight: 500;
+    background-color: rgb(31, 34, 36);
+}
+
+body {
+    font-size: 1.6rem;
+    /* background-color: #ebe4db; */
+    margin: 100px;
+    padding: 50px;
+}
+
+p, li {
+    line-height: 1.5; 
+    letter-spacing: .1rem;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(62, 140, 243);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(98, 216, 227);
+}
